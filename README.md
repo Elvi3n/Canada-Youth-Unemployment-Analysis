@@ -56,7 +56,7 @@ Age group: 15–24 (the most consistent youth definition in Canadian labour forc
 
 ## Key Results
 
-- Youth unemployment rate has risen sharply since 2022, reaching ~14.5% in 2025, which double the national average of .
+- Youth unemployment rate has risen sharply since 2022, reaching ~14.5% in 2025, which double the national average rate.
 
 - Excluding the COVID-19 shock, gap vs. adult unemployment is at its widest since 2010 .
 
