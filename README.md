@@ -1,27 +1,24 @@
 # Canada Youth Unemployment Analysis
 ## Project Overview
 
-This project investigates the trends and characteristics of youth unemployment in Canada (ages 15–24), using official labour market datasets spanning ~1978–2025. The goal is to highlight how economic downturns, structural changes disproportionately affect young workers.
-
-```
-Python-Canada-Youth-Unemployment-Analysis/
-├── data/              
-├── cleaned_data/      
-├── notebooks/                  
-├── requirements.txt   
-├── LICENSE
-└── README.md 
-```
-
-## Motivation
-
-Research shows youth are especially vulnerable in labour markets:
+This project investigates the trends and characteristics of youth unemployment in Canada (ages 15–24), using official labour market datasets spanning ~1978–2025. The goal is to highlight how economic downturns, structural changes disproportionately affect young workers, as research shows:
 
 - Entry-level jobs (≤ 1 year experience) declined sharply in 2024 (Government of Canada, 2024).
 
 - Youth unemployment currently exceeds the overall unemployment rate, with one of the largest gaps in decades (Gridneff, 2025).
 
 - Growing AI adoption may be eroding entry-level roles by automating tasks historically performed by junior staff (Violino, 2025).
+
+## Key Results
+
+- Youth unemployment rate has risen sharply since 2022, reaching ~14.5% in 2025, which double the national average rate.
+
+- Excluding the COVID-19 shock, gap vs. adult unemployment is at its widest since 2010 .
+
+- Unemployment duration: proportion of youth unemployed for 6+ months has grown steadily, showing signs of structural job search frictions.
+
+<img width="1493" height="990" alt="unemploymentComparasion" src="https://github.com/user-attachments/assets/7a1dd6e1-9a0b-4f9e-bf87-a1a669cf4bba" />
+
 
 ## Dataset Compilation
 
@@ -53,36 +50,28 @@ Age group: 15–24 (the most consistent youth definition in Canadian labour forc
 
 - Visualization of unemployment duration (short- vs. long-term)
 
-## Key Results
-
-- Youth unemployment rate has risen sharply since 2022, reaching ~14.5% in 2025, which double the national average rate.
-
-- Excluding the COVID-19 shock, gap vs. adult unemployment is at its widest since 2010 .
-
-- Unemployment duration: proportion of youth unemployed 27+ weeks has grown steadily, showing signs of structural job search frictions.
-
-<img width="1493" height="990" alt="unemploymentComparasion" src="https://github.com/user-attachments/assets/7a1dd6e1-9a0b-4f9e-bf87-a1a669cf4bba" />
+## Repo Structure
+```
+Python-Canada-Youth-Unemployment-Analysis/
+├── data/              
+├── cleaned_data/      
+├── notebooks/                  
+├── requirements.txt   
+├── LICENSE
+└── README.md 
+```
 
 ## Set up
 
 1) Create & activate virtual environment:
 
     - python -m venv .venv
-   
     - .venv\Scripts\activate   # (Windows)
-   
     - source .venv/bin/activate  # (Mac/Linux)
 
-4) Install requirements:
+2) Install requirements:
 
     - pip install -r requirements.txt
-
-5) Update your client ID, client secret, and user agent in the notebook before running.
-   
-    *Reddit API credentials are required. Create a Reddit app by following the OAuth2 Quick Start Guide*
-
-6) Run Notebook
-
 
 ## License
 
